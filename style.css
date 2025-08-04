@@ -13,6 +13,7 @@ body{
     display: grid;
     place-content: center;
     gap: 10px;
+    background-color:  antiquewhite;
 }
 .box-imagem{
     position: relative;
@@ -31,6 +32,8 @@ body{
     flex-direction: column;
     gap: 16px;
     width: 300px;
+    margin-left: 100px;
+    
 }
 .container input{
     font-size: 2.5rem;
