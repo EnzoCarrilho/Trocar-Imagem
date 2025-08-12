@@ -42,3 +42,14 @@ body{
 .container button{
     padding-block: 8px;
 }
+
+.animacao-ativa {
+    animation: slide-imagem 27s infinite linear;
+}
+@keyframes slide-imagem {
+    0%, 24% { background-image: var(--imagem); }
+    25%, 49% { background-image: url('./img/cachorro.jpg'); }
+    50%, 74% { background-image: url('./img/gato.jpg'); }
+    75%, 100% { background-image: url('./img/pavão.jpg'); }
+  
+}
